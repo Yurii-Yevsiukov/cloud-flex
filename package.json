@@ -2,7 +2,7 @@
   "name": "cloud-flex",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Yurii-Yevsiukov/cloud-flex",
+  "homepage": "https://yurii-yevsiukov.github.io/cloud-flex/",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/*.html",
