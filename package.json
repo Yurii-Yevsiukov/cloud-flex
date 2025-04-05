@@ -1,22 +1,22 @@
 {
-  "name": "parcel-template",
+  "name": "cloud-flex",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Yurii-Yevsiukov/parcel-template",
+  "homepage": "https://github.com/Yurii-Yevsiukov/cloud-flex",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-template/"
+    "build": "parcel build src/*.html --public-url /cloud-flex/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yurii-Yevsiukov/parcel-template.git"
+    "url": "git+https://github.com/Yurii-Yevsiukov/cloud-flex.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Yurii-Yevsiukov/parcel-template/issues"
+    "url": "https://github.com/Yurii-Yevsiukov/cloud-flex/issues"
   },
   "dependencies": {
     "modern-normalize": "^3.0.1"

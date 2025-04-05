@@ -1,1 +1,1 @@
-Parcel template
+cloud-flex
