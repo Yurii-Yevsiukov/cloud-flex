@@ -1,7 +1,12 @@
-@import './utilities/variables';
+@import './base/normalize';
 
-@import './base/common';
+@import './utilities/module';
 
+@import './base/module';
+
+@import './components/module';
+
+@import './layouts/module';
 
 
 

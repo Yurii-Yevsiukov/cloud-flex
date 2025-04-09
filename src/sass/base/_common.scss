@@ -1,15 +1,11 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';
-
 body {
-  background-color: greenyellow;
+  font-family: $fontFamily;
+  color: $colorWhite;
+  background-color: $colorBlue;
 }
 
-h1 {
-  font-size: 48;
-  color: $accentColorText;
-}
-
-h2 {
-  font-size: 36px;
-  color: $primaryTextColor;
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  // padding: 0 30px;
 }

@@ -1,1 +1,32 @@
-<h2>HEADER</h2>
+<header class="header" aria-label="header">
+  <div class="container">
+    <nav class="nav header__nav" aria-label="header navigation">
+      <div class="nav__title">
+        <a class="nav__title-link" href="#">CLOUD <span>FLEX</span></a>
+      </div>
+
+      <div class="nav__links">
+        <ul class="nav__links-list" aria-label="header navigation links">
+          <li class="nav__links-item">
+            <a class="nav__links-link" href="#" aria-label="first link">about us</a>
+          </li>
+          <li class="nav__links-item">
+            <a class="nav__links-link" href="#" aria-label="second link">contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="covid nav__covid-wrapper">
+        <a class="covid__link" href="#" aria-label="covid-19 update">COVID-19 UPDATE</a>
+      </div>
+
+      <div class="globe nav__globe-wrapper">
+        <a class="globe__link" href="#" aria-label="globe info link">
+          <svg class="globe__link-icon" width="27" height="29" aria-label="globe image">
+            <use href="./images/sprites.svg#globe-icon"></use>
+          </svg>
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>

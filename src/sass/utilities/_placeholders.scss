@@ -1,0 +1,15 @@
+%hover-black {
+
+  &:hover,
+  &:focus {
+    color: $colorBlack;
+  }
+}
+
+%hover-black-icon {
+
+  &:hover,
+  &:focus {
+    stroke: $colorBlack;
+  }
+}

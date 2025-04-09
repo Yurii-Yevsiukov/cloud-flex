@@ -1,0 +1,31 @@
+@mixin d-flex($direct: row, $wrap: nowrap, $justify: start, $align: center, $colgap: 0, $rowgap: 0) {
+  display: flex;
+  flex-direction: $direct;
+  flex-wrap: $wrap;
+  justify-content: $justify;
+  align-items: $align;
+  column-gap: $colgap;
+  row-gap: $rowgap;
+}
+
+@mixin centerFlex() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin font($fw: 400, $fs: 16px, $lh: 1.25, $ls: 0) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+}
+
+@mixin transition($property) {
+  $duration: 400ms;
+  $timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition-property: $property;
+  transition-duration: $duration;
+  transition-timing-function: $timing-function;
+}
